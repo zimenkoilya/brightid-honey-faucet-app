@@ -9,6 +9,7 @@ import SubgraphClient from './SubgraphClient'
 import { WalletProvider } from './providers/Wallet'
 import { AppStateProvider } from './providers/AppState'
 import { ClockProvider } from './providers/Clock'
+import './styles/style.css';
 
 ReactDOM.render(
   <SubgraphClient>

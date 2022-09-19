@@ -39,7 +39,8 @@ function Metrics() {
       }}
     >
       <FaucetInfo
-        amount={bigNum(totalRegisteredUsers)}
+        // amount={bigNum(totalRegisteredUsers)}
+        amount={0}
         decimals={0}
         text="Registered users this period"
         icon={userIcon}
@@ -48,7 +49,8 @@ function Metrics() {
       />
       <div>
         <FaucetInfo
-          amount={config.totalDistributed}
+          // amount={config.totalDistributed}
+          amount={0}
           decimals={config.token.decimals}
           text="Total distributed"
           icon={distributionIcon}

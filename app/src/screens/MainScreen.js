@@ -33,19 +33,19 @@ const MainScreen = React.memo(({ isLoading }) => {
         <Content
           compact={layout === 'small'}
           icon={honeyIsMoneyIcon}
-          title="Honey is Money"
+          title="P8 is Money"
           reverse
           text={
             <span>
-              <Link href="https://blog.1hive.org/honey/">
-                Honey is 1Hive's community currency
+              <Link href="https://poly186.io/">
+                P8 is Poly186's community currency
               </Link>
-              . Similar to Bitcoin or Ether, Honey is issued and distributed by
+              . Similar to Bitcoin or Ether, P8 is issued and distributed by
               an economic protocol, and can be freely exchanged on a distributed
-              ledger. When you hold Honey you are betting on the Honey economy
+              ledger. When you hold P8 you are betting on the P8 economy
               growing over time, and you can help realize that goal by staking
-              your Honey on distribution proposals which allocate Honey issuance
-              towards the initiatives that help 1Hive thrive.
+              your P8 on distribution proposals which allocate P8 issuance
+              towards the initiatives that help Poly186 thrive.
             </span>
           }
         />
@@ -57,11 +57,11 @@ const MainScreen = React.memo(({ isLoading }) => {
           title="Free Money?"
           text={
             <span>
-              This faucet allows you to claim Honey just for being a human and
-              showing interest in 1Hive... but if Honey is Money, why would we
+              This faucet allows you to claim P8 just for being a human and
+              showing interest in Poly186... but if P8 is Money, why would we
               want to just give it out like that? The answer is that having a
-              broad and inclusive distribution of Honey is critical for the
-              1Hive community to grow and decentralize. In the early days of
+              broad and inclusive distribution of P8 is critical for the
+              Poly186 community to grow and decentralize. In the early days of
               Ethereum and Bitcoin, it was possible to mine Ether and Bitcoin on
               a personal computer and this resulted in a broad and inclusive
               distribution. In principal this faucet operates on the same basic
@@ -81,9 +81,9 @@ const MainScreen = React.memo(({ isLoading }) => {
             <span>
               This faucet is funded through{' '}
               <Link href="https://1hive.org/#/">
-                Honey distribution proposals
+              P8 distribution proposals
               </Link>
-              , anyone can make a proposal to top up the faucet with more Honey,
+              , anyone can make a proposal to top up the faucet with more P8,
               and if there is sufficient support it will happen. The faucet will
               allocate a portion of its balance to all registered users each
               period, when a user claims their share they will automatically be
@@ -99,7 +99,7 @@ const MainScreen = React.memo(({ isLoading }) => {
                 of uniqueness. If you've never used it before you'll need to
                 download it, make a few connections, and get verified. We can
                 help! Just hop on the{' '}
-                <Link href="https://discord.gg/sBzpmxK">1Hive Discord</Link> 🍯
+                <Link href="https://discord.gg/sBzpmxK">Poly186 Discord</Link> 🍯
                 and say Hi!
               </span>
             </span>

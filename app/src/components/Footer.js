@@ -2,7 +2,7 @@ import React from 'react'
 import { GU, Link as AragonLink, textStyle, useTheme } from '@1hive/1hive-ui'
 import styled from 'styled-components'
 import Layout from './Layout'
-import logoSvg from '../assets/logo.svg'
+import logoSvg from '../assets/logo.png'
 
 export default function Footer({ compact }) {
   const theme = useTheme()
@@ -13,7 +13,7 @@ export default function Footer({ compact }) {
         flex-shrink: 0;
         width: 100%;
         padding: ${4 * GU}px ${compact ? `${3 * GU}px` : 0};
-        background: ${theme.surface};
+        background: #282828;
       `}
     >
       <Layout>
